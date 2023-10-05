@@ -49,6 +49,14 @@ a{
   text-decoration: none;
 }
 
+.buttonhome:hover{
+  letter-spacing: 0.4rem
+}
+
+.buttonhome:active{
+  letter-spacing: 0.4rem
+}
+
 
 .buttonhome a{
     text-decoration: none;
