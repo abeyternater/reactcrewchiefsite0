@@ -38,11 +38,10 @@
     box-shadow: 4rem;
     animation: glowing 1400ms infinite;
     border-radius: 18px;
-    padding:0.7rem;
+    padding:0.5rem;
     margin: 1rem;
     transition: letter-spacing 0.1s;
     text-align: center;
-    height: 4rem;
     margin-top: 38rem;
 
 }
@@ -115,6 +114,8 @@ margin-bottom: 13rem;
 
     .buttonhome{
       margin-top: 10rem;
+      margin: 1rem;
+      padding: 0.5rem;
     }
 
 
