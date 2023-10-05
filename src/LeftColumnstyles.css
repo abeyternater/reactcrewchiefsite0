@@ -74,6 +74,15 @@
     }
   }
 
+  @media screen and (max-width:1524px) {
+    
+    .header{
+      margin: 0rem;
+      width: 75%;
+    
+  }
+}
+
   @media only screen and (max-width:1160px){
 
 
