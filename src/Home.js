@@ -2,7 +2,6 @@ import './Homestyles.css';
 import {
     Link
   } from "react-router-dom";
-  import triangle from './images/triangletransparent.png'
 
 function Home() {
 
