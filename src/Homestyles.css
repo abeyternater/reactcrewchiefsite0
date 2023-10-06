@@ -20,7 +20,7 @@
 }
 
 .containerhome h3{
-    margin-top: 33rem;
+    margin-top: 35rem;
     margin-left: 0.5rem;
     text-align: left;
     font-size: 30px;
@@ -29,6 +29,13 @@
     color: white;
     float: bottom;
 }
+
+.buttoncontainer{
+  align-items: center;
+  width: 50%;
+  text-align: center;
+}
+
 
 
 
@@ -42,10 +49,9 @@
     transition: letter-spacing 0.1s;
     text-align: center;
     margin-top: 38rem;
-align-items: center;
-width: 45%;
-    margin-left: 3rem;
-
+    align-items: center;
+    height: 4rem;
+    margin-right: 4rem;
 }
 a{
   text-decoration: none;
@@ -90,7 +96,7 @@ a{
   @media screen and (max-width:1216px) {
     .containerhome h3{
       font-size: 22px;
-margin-bottom: 13rem;
+      margin-bottom: 13rem;
     }
     
   }
@@ -125,9 +131,6 @@ margin-bottom: 13rem;
       margin: 1rem;
       padding: 0.5rem;
     }
-
-
-   
 
 
     

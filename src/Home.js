@@ -8,7 +8,7 @@ function Home() {
     return (
         <div className= "Homepage">
                 
-            <div className="containerhome">
+            <div className="containerhome animate__animated animate__fadeInLeft">
              
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -18,9 +18,9 @@ function Home() {
                 
                
                 </div>
-                  
+                  <div className="buttoncontainer animate__animated animate__fadeInRight">
                 <button className="buttonhome"><Link to="/Contact">CONTACT</Link></button>
-                
+                </div>
         </div>
     );
 

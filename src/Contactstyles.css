@@ -3,7 +3,6 @@ form {
     background-size: cover;
     background-position: 0% 33%;
     height: 100vh;
-    width: 100vw;
     overflow: hidden;
 
 }
@@ -22,7 +21,7 @@ body{
 
 .container{
 	position: relative;
-	width: 100%;
+	width: 50%;
 	height: 100%;
 	display: flex;
 	text-align: center;
@@ -31,7 +30,7 @@ align-items: center;}
 .container:after{
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: 50%;
 	left: 0;
 	top: 0;
 	background-size: cover;
@@ -39,12 +38,15 @@ align-items: center;}
 	z-index: -1;
 }
 .contact-box{
-    width: 90vw;
+    width: 50vw;
 	max-height: 480px;
-	display: grid;
+	flex-direction: column;
 	background-color: #fff;
 	box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.19);
     border-radius: 18px;
+	opacity: 0.8;
+	align-content: center;
+	
 }
 
 .left{
@@ -92,7 +94,7 @@ textarea{
 }
 
 .btn{
-	width: 90%;
+	width: 100%;
 	padding: 0.5rem 1rem;
 	background-color: #2db53d;
 	color: #fff;
@@ -121,7 +123,7 @@ textarea{
 	.contact-box{
 		grid-template-columns: 1fr;
 		margin-bottom: 11rem;
-		height: 470px;
+		height: 520px;
 	}
 	.left{
 		height: 520px;
@@ -136,6 +138,7 @@ textarea{
 
 	.container{
 		align-items: center;
+		width: 100%;
 	}
 
 	.contact-box{
