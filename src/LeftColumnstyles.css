@@ -129,8 +129,12 @@
   font-size: 2rem;
 }
 
+.header p{
+  font-size: 1.5rem;
+}
+
   .buttonleft{
-    margin-top: 24rem;
+    margin-top: 18rem;
   }
   
 }
