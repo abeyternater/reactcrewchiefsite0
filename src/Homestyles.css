@@ -21,7 +21,7 @@
 
 .containerhome h3{
     margin-top: 35rem;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
     text-align: left;
     font-size: 30px;
     line-height: 2.2rem;
@@ -33,7 +33,7 @@
 .buttoncontainer{
   align-items: center;
   width: 50%;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -130,8 +130,6 @@ a{
       margin-top: 10rem;
       margin: 1rem;
       padding: 0.5rem;
-    }
-
-
-    
+    }    
 }
+
