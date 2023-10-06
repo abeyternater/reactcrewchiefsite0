@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Contactstyles.css';
+import 'animate.css';
 
 
 function Contact(){
@@ -22,8 +23,8 @@ function Contact(){
   <form ref={form} onSubmit={sendEmail}>
 
 <div className="container">
-		<div className="contact-box">
-			<div className="left">
+		<div className="contact-box animate__animated animate__fadeInLeft">
+			<div className="left animate__animated animate__fadeInLeft">
         <h2>Contact Me</h2>
       <input name="user_name" type="text" className="field" placeholder="Your Name" />
       <input name="user_email" type="text" className="field" placeholder="Your Email" />
