@@ -3,10 +3,12 @@
 
 .left-column{
     flex: 1;
+    display: flex;
     text-align: center;
     margin: 0;
     height: 100%;
     overflow: hidden;
+    justify-content: center;
 }
 
 
@@ -100,11 +102,6 @@
     }
 
     
-  }
-  @media only screen and (max-width:830px){
-.buttonleft{
-  margin-top: 30rem;
-}
   }
 
   @media screen and (max-width:436px){

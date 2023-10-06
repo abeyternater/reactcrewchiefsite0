@@ -121,7 +121,6 @@ textarea{
 
 	.contact-box{
 		grid-template-columns: 1fr;
-		margin-bottom: 11rem;
 		height: 520px;
 	}
 	.left{
