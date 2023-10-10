@@ -25,7 +25,7 @@ function Contact(){
 <div className="container">
 		<div className="contact-box animate__animated animate__fadeInLeft">
 			<div className="left animate__animated animate__fadeInLeft">
-        <h2>Contact Me</h2>
+        <h2>Contact</h2>
       <input name="user_name" type="text" className="field" placeholder="Your Name" />
       <input name="user_email" type="text" className="field" placeholder="Your Email" />
       <input name="phone_number" type="text" className="field" placeholder="Phone" />
